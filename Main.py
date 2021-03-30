@@ -32,7 +32,7 @@ class Voxel(Button):
 		super().__init__(
 			parent = scene,
 			position = position,
-			model = 'assets/block',
+			model = 'assets/block', 
 			origin_y = 0.5,
 			texture = texture,
 			color = color.color(0,0,random.uniform(0.9,1)),
